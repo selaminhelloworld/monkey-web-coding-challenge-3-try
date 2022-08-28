@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Kanit:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    color: #141C33;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #E87522;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: #CC222D;
+    margin: 0;
+    padding: 0 0 10px 10px;
+}
+
+h1 {
+    font-family: 'Gravitas One', cursive;
+    font-size: 48px;
+    margin-left: 40px;
+    margin-bottom: 15px;;
+}
+
+.subheader {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+table {
+    margin: 15px 15px;
+}
+
+table, th, td {
+    border: 1px solid #141C33;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th {
+    color: #CC222D;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 100px 500px 100px 580px;
+    margin: 20px 155px;
+}
+
+.quote {
+    flex: auto;
+    font-family: 'Gravitas One', cursive;
+    font-size: 36px;
+    color: #141C33;
+}
+
+.para {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 300px 25px 300px;
+}
+
+footer {
+    display: flex;
+    background-color: #CC222D;
+    height: 100px;
+    align-items: center;
+    gap:50px;
+    align-items: center;
+}
+
+footer a img{
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+}
+
+.right-side {
+    display: flex;
+    margin-left:auto;
+    margin-right: 25px;
+}
+
+#dc {
+    width: 250px;
+}
+
+#copy {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    margin-left: 25px;
+}
